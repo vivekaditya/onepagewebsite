@@ -1,0 +1,74 @@
+
+/* === Media Queries ==== */
+
+@media only screen and (max-width: 992px){
+.tab-buttons li{width: 90px;height: 90px;margin-bottom: 10px;}
+.tab-buttons li a i {font-size: 24px;margin: 20px auto 5px;}
+}
+
+
+
+
+@media only screen and (max-width:768px) { 
+ul.tab-buttons li {height: 95px;width: 117px;margin-right: 0;}
+.about_me{margin-bottom:0px;}
+.about_info {margin-bottom: 20px;}
+.about_me h3 {font-size: 20px;}
+.social-profile {margin-bottom: 30px;}
+.plan .price h3 {font-size: 65px;}
+#timeline > li .hentry .entry-date {font-size: 11px;}
+.contact_address{margin-bottom:20px;}
+.contact_address {padding: 10px 0;}
+.contact_address p {font-size: 15px;}
+}
+
+
+
+
+@media only screen and (max-width:480px) { 
+ul.tab-buttons li {
+  height: 100px;
+  width: 147px;
+}
+.about_title {margin-top: 30px;}
+.plan {margin-bottom: 40px;}
+#timeline > li .hentry .entry-date {font-size: 12px;}
+.hentry .hentry-box {margin-bottom: 20px;}
+.portfolio-filters li {margin-bottom: 10px;}
+.contact_address p {font-size: 18px;}
+}
+
+
+
+
+@media only screen and (max-width:360px) { 
+ul.tab-buttons li {
+  height: 100px;
+  width: 162px;
+}
+.social-profile ul li {margin-right: 3px;}
+#timeline > li .hentry .entry-date {font-size: 10px;}
+#timeline > li .hentry .entry-date {top: -60px;}
+.contact_address p {font-size: 18px;}
+}
+
+
+
+
+@media only screen and (max-width:320px) { 
+ul.tab-buttons li {
+  height: 100px;
+  width: 142px;
+}
+.social-profile ul li {margin-right: 2px;}
+.social-profile ul li a i {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+}
+#timeline > li .hentry .entry-date {top: -60px;}
+.contact_address p {font-size: 18px;}
+}
+
+
